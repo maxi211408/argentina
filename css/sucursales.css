@@ -1,0 +1,36 @@
+
+body{
+    background: rgb(182, 145, 145);
+}
+
+h1{
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+/* FLEXBOX */
+
+.padre {
+    display: flex;
+    padding: 50px;
+    border: solid 5px blue;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* flex-direction: row reverse */
+       justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+       justify-content: start;
+    /* justify-content: stretch; */
+}
+
+.hijo   li{
+    border: solid 2px black;
+    text-align: center;
+    margin-bottom: 25px;
+}
